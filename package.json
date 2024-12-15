@@ -1,0 +1,17 @@
+{
+  "name": "@mundanesoftware/file-uploader",
+  "version": "1.1.4",
+  "description": "A robust library for uploading large files to Cloud Storage with support for chunked uploads, retries, resumable uploads, and logging.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Mundane Software",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/storage-blob": "^12.25.0",
+    "@azure/storage-file-share": "^12.25.0",
+    "events": "^3.3.0"
+  }
+}
